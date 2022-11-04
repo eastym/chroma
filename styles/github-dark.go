@@ -3,7 +3,7 @@ package styles
 import (
 	"fmt"
 
-	"github.com/alecthomas/chroma/v2"
+	"github.com/eastym/chroma/v2"
 )
 
 var (

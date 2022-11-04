@@ -1,7 +1,7 @@
 package lexers
 
 import (
-	. "github.com/alecthomas/chroma/v2" // nolint
+	. "github.com/eastym/chroma/v2" // nolint
 )
 
 // HTML lexer.

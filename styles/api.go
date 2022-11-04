@@ -3,7 +3,7 @@ package styles
 import (
 	"sort"
 
-	"github.com/alecthomas/chroma/v2"
+	"github.com/eastym/chroma/v2"
 )
 
 // Registry of Styles.
