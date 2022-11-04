@@ -5,7 +5,7 @@ import (
 )
 
 // RainbowDash style.
-var Research = Register(chroma.MustNewStyle("research", chroma.StyleEntries{
+var Res = Register(chroma.MustNewStyle("res", chroma.StyleEntries{
 	chroma.Comment:             "italic #0080ff",
 	chroma.CommentPreproc:      "noitalic",
 	chroma.CommentSpecial:      "bold",
