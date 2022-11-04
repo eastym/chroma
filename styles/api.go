@@ -1,7 +1,6 @@
 package styles
 
 import (
-	"fmt"
 	"sort"
 
 	"github.com/eastym/chroma/v2"
@@ -15,7 +14,6 @@ var Fallback = SwapOff
 
 // Register a chroma.Style.
 func Register(style *chroma.Style) *chroma.Style {
-	fmt.Printf("%s :",style.Name)
 	Registry[style.Name] = style
 	return style
 }
