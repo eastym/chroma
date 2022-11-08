@@ -137,6 +137,7 @@ const (
 // Punctuation.
 const (
 	Punctuation TokenType = 5000 + iota
+	Bracket
 )
 
 // Comments.
@@ -287,6 +288,7 @@ var (
 		OperatorWord: "ow",
 
 		Punctuation: "p",
+		Bracket: "br",
 
 		Comment:            "c",
 		CommentHashbang:    "ch",
