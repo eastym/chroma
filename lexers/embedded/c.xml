@@ -21,7 +21,7 @@
         <include state="statements"/>
       </rule>
       <rule pattern="[{}]">
-        <token type="Punctuation"/>
+        <token type="Bracket"/>
       </rule>
       <rule pattern=";">
         <token type="Punctuation"/>
